@@ -1,0 +1,130 @@
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        background-image: url(./images/batman-movie-poster.gif);
+    }
+
+
+    .director {
+        color:red;
+        font-weight: 100;
+        letter-spacing: 10px;
+        padding-top: 20%;
+        padding-left: 5%;
+        display: grid;
+        align-items: center;
+        font-size: 50px;
+        font-weight: 400;
+        }
+        
+    .buget {
+            color: red;
+            font-weight: 100;
+            letter-spacing: 5px;
+            padding-top: 2%;
+            padding-left: 5%;
+            display: grid;
+            align-items: center;
+            font-size: 50px;
+        }
+        
+        .hero {
+            color: red;
+            font-weight: 100;
+            letter-spacing: 10px;
+            padding-top: 2%;
+            padding-left: 5%;
+            display: grid;
+            align-items: center;
+            font-size: 50px;
+        }
+        
+        .villen {
+            color: red;
+            font-weight: 100;
+            letter-spacing: 10px;
+            padding-top: 2%;
+            padding-left: 5%;
+            display: grid;
+            align-items: center;
+            font-size: 50px;
+        }
+        
+    .logo {
+        width: 250px;
+        height: 150px;
+        padding-top:50px ;
+        padding-right: 60px;
+        padding-left: 60px;
+
+    }
+
+    .main-vedio video {
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    align-items: center;
+    outline: 0;
+    margin-left:auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: auto
+    }
+
+    .left {
+        width: 50%;
+        float:left;
+
+    }
+
+    .right img {
+        width: 50%;
+        height: 80vh;
+        padding-right: 50px;
+        float:right;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mail {
+        width:320px;
+        height:50px;
+        border-radius:20px ;
+        border-width: 1px;
+        border:1px solid red;
+        position: relative;
+        outline: none;      
+}
+
+    .mail::placeholder {
+        color:red (0, 36%, 70%);
+        padding-left: 20px;
+    }
+
+    .button {
+        width:90px;
+        height:50px;
+        border-radius:60px ;
+        border-width: 1px;
+        border-color:red (0, 36%, 70%);
+        color:red;
+        font-size: 20px;
+        background-color:cyan;
+        outline:none;
+        position:absolute;
+        transform: translate(-30%);
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.input_box {
+   margin-bottom: 20%;
+   margin-left: 400px;
+}
